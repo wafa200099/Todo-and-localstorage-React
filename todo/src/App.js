@@ -2,6 +2,9 @@ import React,{useState,useEffect} from 'react'
 import './App.css';
 import { FaTrashAlt,FaPlusCircle,FaCheck } from "react-icons/fa";
 
+
+
+
 const getLocalStorage=()=>{
   let myLocalTasks = localStorage.getItem('todos')
   console.log( myLocalTasks);
